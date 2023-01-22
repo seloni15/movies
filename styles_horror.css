@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'ghastly_panicregular';
+    src: url('fonts/ghastly_panic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+body{
+    background-color: black;
+}
+
+div{
+    padding-bottom: 6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+h1{
+    color:#FF0032;
+    font-family:'ghastly_panicregular' ,sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 4.5px;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'ghastly_panicregular',sans-serif;
+    font-weight: bold;
+    font-size:4.5rem;
+    text-align: center;
+    color:#B7C4CF;
+    letter-spacing: 2px;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+    font-family: 'Ubuntu',sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:450px;
+  }

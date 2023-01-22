@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'cute_fontregular';
+    src: url('fonts/cutefont-regular1-webfont.woff2') format('woff2'),
+         url('fonts/cutefont-regular1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cutesyregular';
+    src: url('fonts/cutesy1-webfont.woff2') format('woff2'),
+         url('fonts/cutesy1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #E3ACF9;
+    
+}
+h1{
+    font-family: 'cute_fontregular';
+    padding-top:2rem;
+    font-size:6.5rem;
+    letter-spacing:7px;
+    padding-bottom: 3.5rem;
+    color:white;
+}
+h2{
+    font-family: 'cute_fontregular';
+    font-size:3.2rem;
+    text-align: center;
+    color:#A31ACB;
+}
+.section{
+    padding-bottom: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+img{
+    height:500px;
+    width:80%;
+    border-radius:90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    font-family:'cutesyregular'; ;
+    text-align: center;
+    width:80%;
+    padding-left: 7rem;
+    font-size:2.5rem;
+    color:white;
+    font-style: bold;
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ruthlessregular';
+    src: url('fonts/ruthless-webfont.woff') format('woff')
+         url('fonts/ruthless-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'scramble_stormregular';
+    src: url('fonts/scramble_storm1-webfont.woff2') format('woff2'),
+         url('fonts/scramble_storm1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #B7B78A;
+}
+h1{
+    font-family:'scramble_stormregular';
+    padding-top:3rem;
+    font-size:6.5rem;
+    letter-spacing:7px;
+    padding-bottom: 3.5rem;
+    color:#658864;
+}
+h2{
+    text-align: center;
+    font-family:'scramble_stormregular';
+    font-size: 3.5rem;
+    letter-spacing:5px ;
+    color:#7B8FA1;
+}
+.section{
+    padding-bottom: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+img{
+    height:450px;
+    width:80%;
+}
+.text{
+    text-align: center;
+    width:80%;
+    padding-left: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.2rem;
+    color:#EEEEEE;
+}
